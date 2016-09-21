@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+    body {
+        width: 100%;
+        height: 1066px;
+        background: url(../img/background-fon.png) no-repeat;
+        background-size: cover;
+        font-family: 'Helvetica Neue', Arial;
+        font-size: 14px;
+        color: #ffffff; }
+
+    ul   {list-style: none}
+
+    a   {
+        text-decoration: none;
+        color: #ffffff;}
+
+    /*<----------------------HEADER---------------------->*/
+    .header {
+        margin: 0 auto;
+        height: 35px; width: 100%;
+        background: url(../img/background_header.jpg);
+        display: flex;
+        position: absolute;
+        justify-content: flex-end;
+        border: 0px solid #074f8f;
+        }
+    .header ul {
+        width: 100%;
+        margin-right: 40px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        }
+    .header li .navi {
+        height: 35px;
+        padding: 0 15px;
+        font-weight:100;
+        border-right:0px solid #074f8f;
+        display: block;
+        color: #66ccff;
+        line-height: 35px;
+        }
+    .header li .line {
+        padding: 0 15px;
+        }
+    .header li .minhis {
+        padding: 0 15px;
+        border: 0px solid #074f8f;
+        line-height: 35px;
+        }
+    .header ul .under {
+        padding: 0 10px;
+        }
+    .header li .underline {
+        text-decoration: underline;
+        border-left: 0px solid #074f8f;
+        line-height: 35px;
+        }
+    .header li .navi:hover {
+        background: #4eabda;
+        color:#ffffff;
+        }
+    ul li.minhis:hover {
+        background:url(../img/fon-gradient.png);
+        }
+    ul li.under:hover {
+        background:url(../img/fon-gradient.png);
+        }
+
+          /*<------------CONTENT------------->*/
+    .conteiner {
+        height: 1031px;
+        width: 100%;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 35px;
+        }
+    .content {
+        height: 615px;
+        width: 560px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        }
+    .cadastre {
+        width: 100%;
+        height: 40px;
+        display: block;
+        text-align: center;
+        font-size: 24px;
+        padding: 22px 0;
+        }
+    .form ul li {
+        height: 100%;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        }
+    input {
+        padding-left: 20px;
+        height: 35px;
+        width: 275px;
+        border: 0;
+        border-bottom: 1px solid grey;
+        background-color: black;
+        padding-left: 20px;
+        }
+    .text:focus {
+        background-color: #1b5288;
+        box-shadow: 0 0 10px 4px #3e7aa6;
+        outline: none;
+        border-bottom: 1px solid #699bcd;
+        color: #ffffff;
+        }
+    #submit {
+        width: 150px;
+        padding: 0;
+        color: #ffffff;
+        border-radius: 3px;
+        text-align: center;
+        background: linear-gradient(to top, #2e7ac4, #67c6e6);
+        }
+    #checkbox {
+        height: auto;
+        width: 5%;
+        }
+    label{
+        width: 100%;
+        }
+    .by_click {
+        font-size: 11px;
+        }
